@@ -1,0 +1,74 @@
+$red : #ea2856;
+$redBack : #f8d4d4;
+$textGray: #6b7d9d;
+
+
+.ShoppingListItem {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    background: #f3f4f6;
+    margin-bottom: 15px;
+    padding: 8px;
+    border-radius: 8px;
+
+    .ShoppingListItemImg {
+        width: 40%;
+        margin-right: 5px;
+        height: 90px;
+
+        img {
+            width: 100%;
+            border-radius: 2px;
+            height: 100%;
+            object-fit: contain;
+            background-color: #ffffff;
+            padding: 10px;
+        }
+    }
+
+    .ShoppingListItemContent {
+        width: 60%;
+        margin-left: 5px;
+        direction: ltr;
+
+        h3 {
+            font-size: 15px;
+            margin-top: 5px;
+        }
+
+        .priceNum {
+            display: flex;
+            justify-content: space-between;
+
+            .price {
+                span {
+                    font-size: 14px;
+                    font-weight: 600;
+                    color: $textGray;
+                }
+            }
+
+            .num {
+                display: flex;
+                align-items: center;
+
+                i {
+                    cursor: pointer;
+                }
+
+                span {
+                    margin: 0 5px;
+                    font-size: 14px;
+                    font-weight: 600;
+                    color: $textGray;
+                }
+            }
+
+            .trash {
+                cursor: pointer;
+            }
+        }
+
+    }
+}
