@@ -1,10 +1,10 @@
 #Shopping cart using Reactjs 
 
 in this project used:
--react use cart
--sass
--bootstrap
--Font Awesome
+- react use cart
+- sass
+- bootstrap
+- Font Awesome
 
 # Getting Started with Create React App
 
